@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+/* headers */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 200px;
+    justify-content: flex-end;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+/* contents */
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text boxes */
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2{
+    color: #333;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+/* EduSeeds */
+.content .textBox h2 span {
+    color: #8eb138;
+    font-size: 1.4em;
+    font-weight: 900;
+    position: relative;
+    left: 0.6em;
+    margin-top: 6cm;
+    margin-bottom: 6cm;
+    transition: 1.5s;
+}
+
+/* EduSeeds animação */
+.content .textBox h2 span:hover {
+    color: #6a8036;
+    font-size: 1.6em;
+    font-weight: 900;
+    position: relative;
+    left: 0.8em;
+    margin-top: 4cm;
+    margin-bottom: 4cm;
+    transition: 0.5s;
+}
+
+
+.content .textBox p {
+    font-size: 1.2em;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #DC9C54;
+}
+
+/* butao */
+.content .textBox a {
+    bottom: 0;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 40px;
+    background: #8eb138;
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 20px 40px;
+    transition: 0.5s;
+}
+
+/* butao com mouse em cima */
+.content .textBox a:hover {
+    bottom: 0;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 8px 50px;
+    background: #6a8036;
+    color: #fff;
+    border-radius: 70px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 20px 40px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8eb138;
+    clip-path: circle(800px at right 1000px);
+}
+
